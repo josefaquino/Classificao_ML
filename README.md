@@ -35,3 +35,12 @@ Para abordar o problema de classificação de churn, foram explorados e comparad
     Random Forest Classifier: Um modelo de ensemble poderoso, que combina múltiplas árvores de decisão para melhorar a robustez e a acurácia.
 
 Dada a natureza desbalanceada dos dados de churn (geralmente poucos clientes dão churn), as métricas de avaliação focaram não apenas na Acurácia, mas também no F1-score, Recall e Precision especificamente para a classe minoritária (Churn), que são mais reveladoras nesses cenários. O SMOTE (Synthetic Minority Over-sampling Technique) foi aplicado para balancear as classes no conjunto de treinamento.
+O Random Forest Otimizado apresentou a melhor combinação de alta acurácia, um bom F1-score para a classe de churn e, crucialmente, uma alta Precision para a classe 'Churn' (0.71). Isso significa que, quando o modelo prevê que um cliente irá dar churn, essa previsão é altamente confiável, minimizando o desperdício de recursos em clientes que não iriam embora. Embora o KNN tenha um Recall ligeiramente superior, o Random Forest oferece um equilíbrio mais robusto e uma performance geral mais forte.
+
+Implicações para o Negócio:
+
+O Random Forest Otimizado é o modelo recomendado para ser implementado, pois ele oferece uma alta confiabilidade nas previsões de churn, permitindo que a empresa direcione seus esforços de retenção de forma mais eficiente. A identificação das características mais importantes pelo Random Forest também pode fornecer insights valiosos sobre os fatores que mais contribuem para o churn.
+
+Como Reutilizar os Modelos
+
+Os modelos treinados e os transformadores de dados estão salvos na pasta modelos_churn_salvos/
