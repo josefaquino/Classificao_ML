@@ -43,4 +43,4 @@ O Random Forest Otimizado é o modelo recomendado para ser implementado, pois el
 
 Como Reutilizar os Modelos
 
-Os modelos treinados e os transformadores de dados estão salvos na pasta modelos_churn_salvos/
+Os modelos treinados e os transformadores de dados estão salvos na pasta raiz desse projeto no formato pkl.
