@@ -44,3 +44,18 @@ O Random Forest Otimizado é o modelo recomendado para ser implementado, pois el
 Como Reutilizar os Modelos
 
 Os modelos treinados e os transformadores de dados estão salvos na pasta raiz desse projeto no formato pkl.
+
+Principais aprendizados nesse curso:
+ Árvores de Decisão: Explorei modelos mais simples que oferecem boa interpretabilidade, mostrando um equilíbrio entre complexidade e capacidade preditiva.
+
+Modelos de Ensemble (Random Forest): O Random Forest se destacou, me ensinando sobre o poder de combinar múltiplos modelos simples para criar um mais robusto e preciso. Ele mostrou um desempenho superior na maioria das métricas.
+
+KNN (K-Nearest Neighbors): Compreendi como modelos baseados em "vizinhança" funcionam e como a normalização dos dados é vital para eles.
+
+Por fim, e talvez o mais importante, foi aprofundar na avaliação dos modelos. Não é só a acurácia que importa, especialmente com classes desbalanceadas. Aprendi a usar e interpretar métricas como Precision, Recall e F1-score, que me dão uma visão muito mais rica sobre os tipos de erros que o modelo comete. Também usei a Matriz de Confusão para visualizar esses erros e acertos, e a Curva ROC para entender o poder de discriminação do modelo.
+
+E, claro, a parte de visualização de dados foi fundamental para apresentar esses resultados. Usar bibliotecas como Plotly, Seaborn e Matplotlib me permitiu criar gráficos interativos e bem elaborados que comunicam o desempenho dos modelos de forma clara e eficaz.
+
+Para fechar, a ideia de salvar os modelos treinados (persistência com Pickle) foi um aprendizado prático e essencial para qualquer projeto de ML que vise ir para a produção, permitindo que os modelos sejam reutilizados sem precisar de retreinamento constante.
+
+Em resumo, a aula me proporcionou uma visão completa do ciclo de vida de um projeto de classificação, desde a preparação dos dados até a avaliação e a persistência dos modelos, sempre com foco em métricas que realmente importam para o problema de negócio.
