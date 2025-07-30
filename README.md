@@ -1,4 +1,4 @@
-Previsão de Churn de Clientes
+Previsão de Churn de Clientes - Telecom X - Parte 2
 
 Este projeto de Machine Learning tem como objetivo desenvolver e comparar diferentes modelos preditivos para identificar clientes com alta probabilidade de churn (abandono) em um serviço. A previsão de churn é crucial para as empresas, permitindo que elas tomem medidas proativas para reter clientes valiosos, como oferecer promoções personalizadas ou suporte aprimorado.
 
